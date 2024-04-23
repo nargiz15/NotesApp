@@ -1,5 +1,7 @@
-// src/types.ts
-export interface RootState {
-    notes: Note[];
+
+export interface Note {
+    id: string;
+    text: string;
+    pinned: boolean;
   }
   
